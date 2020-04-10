@@ -1,0 +1,19 @@
+
+<div style="text-align: center;">
+  <h1>WELCOME TO {{title}}!</h1>
+  </div>
+
+    <table>
+      <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>DOB</td>
+        <td>PIN</td>
+      </tr>
+      <tr *ngFor='let obj of list'>
+        <td>{{obj.cId}}</td>
+        <td>{{obj.cName}}</td>
+        <td>{{obj.cDob}}</td>
+        <td>{{obj.cpin}}</td>
+      </tr>
+      </table>

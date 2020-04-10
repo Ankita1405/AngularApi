@@ -1,0 +1,13 @@
+table{
+    background-color: lightcyan;
+    color: darkblue;
+    border: 5px solid red;
+    width: 50%;
+    height: 50%;
+    
+    }
+    td{
+        border: 2px solid rgb(0, 255, 55);
+        margin: 2px;
+
+    }
